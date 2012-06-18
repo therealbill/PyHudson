@@ -9,7 +9,7 @@ import datetime
 
 USER="hudsondb"
 PW="hudson"
-HOST="ito-tools-dev1"
+HOST="YOURDBSERVER"
 DBASE = "hudsondb"
 
 __doc__="""

@@ -16,7 +16,7 @@ STATEFILE = "/var/lib/hudsondb/lastrunat"
 
 USER="hudsondb"
 PW="hudson"
-HOST="ito-tools-dev1"
+HOST="YOURDBSERVER"
 DBASE = "hudsondb"
 
 __doc__="""
@@ -27,7 +27,7 @@ __author__ = "Bill Anderson"
 __author_email__ = "Bill Anderson therealbill@me.com"
 __version__ = "$Revision: 1.1 $".split()[1]
 
-serverURL = "http://ci:8080/"
+serverURL = "http://hudsonserver:hudsonport/"
 
 
 class Application:

@@ -79,7 +79,7 @@ if __name__ ==  "__main__":
 	parser.add_option("-f","--runfailed", action="store_true", dest="runfailed", help="Run all failed projects on the view or views in --views")
 	parser.add_option("-b","--runbuildable", action="store_true", dest="runbuildable", help="Run all buildable projects on the view or views specified in --views")
 	parser.add_option("-v","--views", dest="executeon",help="Comma separated list of views to report on",metavar="VIEWLIST")
-	parser.add_option("-u","--url", dest="serverURL", help="The baseURL for the Hudson server", default="http://ci:8080/")
+	parser.add_option("-u","--url", dest="serverURL", help="The baseURL for the Hudson server", default="http://hudsonserver:hudsonport/")
 	(options, args) = parser.parse_args()
 	print
 

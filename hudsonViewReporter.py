@@ -238,7 +238,7 @@ def deliverReport(options,report,view=""):
 if __name__=='__main__':
 	parser = OptionParser()
 	parser.add_option("-l","--list", action="store_true", dest="listonly", help="Display a comma separated list of available views")
-	parser.add_option("-u","--url", dest="serverURL", help="The baseURL for the Hudson server", default="http://ci:8080/")
+	parser.add_option("-u","--url", dest="serverURL", help="The baseURL for the Hudson server", default="http://hudsonserver:hudsonport/")
 	parser.add_option("-v","--views", dest="reporton",help="Comma separated list of views to report on",metavar="VIEWLIST")
 	parser.add_option("-m","--mailto", dest="mailto", help="Sends an email to the specified address", metavar="EMAILADDRESS")
 	parser.add_option("-t","--hours", dest="hours", help="In conjunction with --jobs/-j, specify the hours to go back. Default is 1 hour", metavar="HOURS", default=1)

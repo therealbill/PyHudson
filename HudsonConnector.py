@@ -325,7 +325,7 @@ if __name__=='__main__':
 
 	import time
 
-	url = "http://ci:8080/api/json"
+	url = "http://hudsonserver:hudsonport/api/json"
 	print "initializing connector...    ",
 	start = time.time()
 	conn = HudsonConnector(url,test_targets)

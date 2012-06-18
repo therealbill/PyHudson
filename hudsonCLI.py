@@ -6,7 +6,7 @@ import datetime
 import sys
 import HudsonConnector
 
-baseURL="http://ci:8080/"
+baseURL="http://hudsonserver:hudsonport/"
 
 class HudsonObject:
 	def __init__(self,datadict):
