@@ -14,7 +14,7 @@ show current state of all jobs run in the last specified hours, or list all
 known views """ 
 
 __author__ = "Bill Anderson"
-__author_email__ = "Bill Anderson bill.anderson@bodybuilding.com"
+__author_email__ = "Bill Anderson therealbill@me.com"
 __version__ = "$Revision: 1.1 $".split()[1]
 
 

@@ -17,7 +17,7 @@ A command line app that will retreive job status for jobs since last invocation 
 """
 
 __author__ = "Bill Anderson"
-__author_email__ = "Bill Anderson bill.anderson@bodybuilding.com"
+__author_email__ = "Bill Anderson therealbill@me.com"
 __version__ = "$Revision: 1.1 $".split()[1]
 
 
